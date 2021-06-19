@@ -1,4 +1,5 @@
 @extends('layouts/headpage')
+
 @section('content')
 
 <nav class="light-blue lighten-1" role="navigation">

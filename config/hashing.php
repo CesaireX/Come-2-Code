@@ -11,7 +11,7 @@ return [
     | passwords for your application. By default, the bcrypt algorithm is
     | used; however, you remain free to modify this option if you wish.
     |
-    | Supported: "bcrypt", "argon", "argon2id"
+    | Supported: "bcrypt", "projet", "projet2id"
     |
     */
 
@@ -34,16 +34,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Argon Options
+    | projet Options
     |--------------------------------------------------------------------------
     |
     | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Argon algorithm. These will allow you
+    | passwords are hashed using the projet algorithm. These will allow you
     | to control the amount of time it takes to hash the given password.
     |
     */
 
-    'argon' => [
+    'projet' => [
         'memory' => 1024,
         'threads' => 2,
         'time' => 2,
