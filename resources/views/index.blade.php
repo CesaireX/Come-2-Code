@@ -15,13 +15,13 @@
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
+    <br><br><br>
       <h1 class="header center orange-text">Gestion-Ordure</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Gardons notre pays propre</h5>
+        <h5 class="header col s12 light" style="color: white;">Gardons notre pays propre</h5>
       </div>
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Se lancer</a>
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Se lancer</a>
       </div>
       <br><br>
 

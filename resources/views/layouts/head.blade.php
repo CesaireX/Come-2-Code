@@ -11,7 +11,7 @@
   <link href="{{ asset('projet') }}/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-<body>
+<body style="background-image: url(../projet/img/theme/background1.jpg); background-size: cover; background-position: center top;">
 
 @yield('content')
 

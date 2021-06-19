@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+
+Route::get('/acceuil', function () {
+    return view('layouts.acceuil');
+});
+
+
+
+Route::get('/login', function () {
+    return view('layouts.login');
+});
+
+
+Route::get('/inscription', function () {
+    return view('layouts.inscription');
+});
