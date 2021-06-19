@@ -1,0 +1,105 @@
+[2021-06-19 14:40:10] local.ERROR: syntax error, unexpected '.', expecting '{' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '.', expecting '{' at /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/database/migrations/2021_06_19_143957_create_pack_charge_table.php.php:7)
+[stacktrace]
+#0 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(133): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#1 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php(97): Illuminate\\Filesystem\\Filesystem->requireOnce()
+#2 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php(59): Illuminate\\Database\\Migrations\\MigrationCreator->ensureMigrationDoesntAlreadyExist()
+#3 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php(110): Illuminate\\Database\\Migrations\\MigrationCreator->create()
+#4 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php(94): Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand->writeMigration()
+#5 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand->handle()
+#6 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#10 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#11 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#12 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#14 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#16 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#17 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#18 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2021-06-19 14:42:25] local.ERROR: syntax error, unexpected '.', expecting '{' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '.', expecting '{' at /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/database/migrations/2021_06_19_143957_create_pack_charge_table.php.php:7)
+[stacktrace]
+#0 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(133): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#1 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php(97): Illuminate\\Filesystem\\Filesystem->requireOnce()
+#2 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php(59): Illuminate\\Database\\Migrations\\MigrationCreator->ensureMigrationDoesntAlreadyExist()
+#3 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php(110): Illuminate\\Database\\Migrations\\MigrationCreator->create()
+#4 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php(94): Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand->writeMigration()
+#5 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand->handle()
+#6 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#10 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#11 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute()
+#12 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run()
+#14 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#16 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#17 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#18 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2021-06-19 15:42:27] local.ERROR: Command "make:models" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:models\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#3 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /media/coulibaly/37490336-d795-4ac8-984f-3a43fc1ae6b1/Documents/Cours_Miage/L2/S4/ComeToCode/Come-2-Code/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
