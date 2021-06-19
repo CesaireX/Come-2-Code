@@ -21,7 +21,7 @@
         <h5 class="header col s12 light" style="color: white;">Gardons notre pays propre</h5>
       </div>
       <div class="row center">
-        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Se lancer</a>
+        <a href="http://localhost:8000/login" id="download-button" class="btn-large waves-effect waves-light orange">Se lancer</a>
       </div>
       <br><br>
 

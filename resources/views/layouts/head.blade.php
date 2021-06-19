@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="{{ asset('projet') }}/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{ asset('projet') }}/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('projet') }}/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="{{ asset('projet') }}/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 </head>
 
 <body style="background-image: url(../projet/img/theme/background1.jpg); background-size: cover; background-position: center top;">

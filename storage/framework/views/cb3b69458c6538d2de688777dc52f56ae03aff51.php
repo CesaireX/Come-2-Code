@@ -16,7 +16,7 @@
 
 					<div class="wrap-input100 validate-input" data-validate = "Entrez votre nom d'utilisateur">
 						<input class="input100" type="text" name="username" placeholder="Nom">
-						<span class="fa fa-search" data-placeholder="&#xf207;"></span>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Entrez votre nom d'utilisateur">
 						<input class="input100" type="text" name="username" placeholder="Prenoms">

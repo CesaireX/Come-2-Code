@@ -76,9 +76,9 @@
 						<button class="login100-form-btn">
 							Connexion
 						</button>
-						<button class="login100-form-btn">
+						<button class="login100-form-btn"><a style="color: black; text-decoration: none;" href="http://localhost:8000/inscription">
 							S'inscrire
-						</button>
+							</a></button>
 					    </div>
 					
 					<div class="text-center p-t-20">
